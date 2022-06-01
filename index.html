@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daemons Label</title>
+
+    <!-- CSS styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/font-awesome-4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+    <!-- Javascripts -->
+    <script src="js/jquery.min.js"></script>
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+    <script src="js/main.js"></script>
+    <!-- <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body id="home">
+    <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
+        <div class="navbar-brand stylish">Label DAEMONS</div>
+
+        <!-- <input id="toggle-random" class="nav_btns" checked type="checkbox" data-on="Random" data-off="Predefined"> -->
+        <!-- <input id="toggle-interval" class="nav_btns" checked type="checkbox" data-on="Interval" -->
+        <!-- data-off="Just Direction"> -->
+
+        <select class="custom-select nav_btns" id="dataset_select">
+            <option selected value="1">Flickr</option>
+            <option value="2">Potsdam</option>
+        </select>
+        <input type="number" class="nav_btns" id="imnr" name="imnr" min="0" max="2000" value="0">
+        <button id="onoff" class="nav_btns">Start</button>
+        <button id="next" class="nav_btns">Next</button>
+
+        <input type="text" id="name" class="nav_btns" value="name" />
+
+        <button id="save" class="nav_btns">save</button>
+    </nav>
+
+
+    <div id="myimg">
+
+    </div>
+
+    <div id="options">
+        <div id="inside" , class="cat">
+            WO?
+            <div class="custom-control custom-radio">
+                <input type="radio" id="wo1" name="wo" class="custom-control-input" checked="True">
+                <label class="custom-control-label" for="wo1">Inside</label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" id="wo2" name="wo" class="custom-control-input">
+                <label class="custom-control-label" for="wo2">Outside</label>
+            </div>
+        </div>
+
+        <div id="menschen" , class="cat">
+            Menschen?
+            <div class="custom-control custom-radio">
+                <input type="radio" id="menschen1" name="menschen" class="custom-control-input" checked="True">
+                <label class="custom-control-label" for="menschen1">Ja</label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" id="menschen2" name="menschen" class="custom-control-input">
+                <label class="custom-control-label" for="menschen2">Nein</label>
+            </div>
+        </div>
+
+        <!-- <input type="checkbox" name="bla" checked data-toggle="toggle"> -->
+        <!-- <label class="custom-control-label" for="bla">Nein</label> -->
+        <!-- 
+        <div id="menschen" , class="cat">
+            Text?
+            <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio1">Ja</label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio2">Nein</label>
+            </div>
+        </div> -->
+
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+.nav_btns {
+    color: black;
+}
+
+.cat {
+    width: 100px;
+    height: 80px;
+    background-color: rgb(206, 206, 221);
+}
+
+#myimg {
+    position: absolute;
+    margin: 100px;
+    width: 1000px;
+    height: 562px;
+    /* background: #000; */
+    background-image: url("/Users/lisa/Documents/SFB1294_B05/ImageCorpus/FOTOS/DAEMONS_flickr_corpus/DAEMONS_corpus_flickr_0000.jpg");
+    background-size: contain;
+}
+
+#options {
+    width: 1500px;
+    position: absolute;
+    top: 800px;
+    margin-left: 100px;
+    display: flex;
+    /* left: 100px; */
+}
+
+/* Nav Bar */
+#things {
+    margin-top: 5%;
+}
+
+.navbar-brand {
+    display: inline-block;
+
+}
+
+.stylish {
+    font-family: 'Pacifico', cursive;
+}
+
+.bg-inverse {
+    color: #eceeef;
+    background-color: #373a3c;
+}
+
+#onoff {
+    height: 30px;
+    width: 60px;
+    border: 2px;
+    background-color: red;
+    margin: 10px;
+    float: left;
+}
+
+.nav_btns {
+    margin: 10px;
+}
